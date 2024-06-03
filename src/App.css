@@ -40,3 +40,34 @@
 .read-the-docs {
   color: #888;
 }
+
+/* MyNav.css */
+
+/* Navbar */
+.navbar {
+  background-color: #8b0c0c; /* Red background color */
+  padding: 1rem 0; /* Add padding to the top and bottom */
+}
+
+/* Navbar Brand */
+.navbar-brand {
+  color: #fff; /* White text color */
+  font-size: 1.5rem; /* Increase font size */
+}
+
+/* Navbar Toggle Button */
+.navbar-toggler {
+  border-color: #fff; /* White border color */
+}
+
+/* Navbar Links */
+.nav-link {
+  color: #fff !important; /* White text color */
+  font-size: 1.2rem; /* Increase font size */
+  margin-right: 1rem; /* Add margin between links */
+}
+
+/* Navbar Links (hover) */
+.nav-link:hover {
+  color: #f0f0f0 !important; /* Lighter text color on hover */
+}
