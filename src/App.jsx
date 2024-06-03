@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import MyNav from './components/Navbar';
 import { Interviews, About, Home, Film } from './components/Pages';
 import './App.css'
-import Footer from './components/Footer/index'
+import Footer from './components/Footer/Footer'
 
 
 
