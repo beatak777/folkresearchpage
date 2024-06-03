@@ -19,48 +19,60 @@ function Interviews() {
       <p>Welcome to our interviews page! Here you can find interviews with industry experts.</p>
       <div className="video-container">
         {/* First Interview */}
-        <iframe
-          title="First Interview"
-          width="560"
-          height="315"
-          src={getEmbeddableUrl("https://drive.google.com/file/d/1kDb4E55wtmGrF-hbUrfm3eyU5_qxeTp9/view?usp=drive_link")}
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
+        <div>
+          <h2>First Interview</h2>
+          <iframe
+            title="First Interview"
+            width="560"
+            height="315"
+            src={getEmbeddableUrl("https://drive.google.com/file/d/1kDb4E55wtmGrF-hbUrfm3eyU5_qxeTp9/view?usp=drive_link")}
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
 
         {/* Second Interview */}
-        <iframe
-          title="Second Interview"
-          width="560"
-          height="315"
-          src={getEmbeddableUrl("https://drive.google.com/file/d/1D3F3J84e8vHgyM97dPaMIVPa0oYUQXRJ/view?usp=drive_link")}
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
+        <div>
+          <h2>Second Interview</h2>
+          <iframe
+            title="Second Interview"
+            width="560"
+            height="315"
+            src={getEmbeddableUrl("https://drive.google.com/file/d/1D3F3J84e8vHgyM97dPaMIVPa0oYUQXRJ/view?usp=drive_link")}
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
 
         {/* Third Interview */}
-        <iframe
-          title="Third Interview"
-          width="560"
-          height="315"
-          src={getEmbeddableUrl("https://drive.google.com/file/d/1qYVxVNy_IWv-asCgUhqoGuoyPPsKsqWt/view?usp=sharing")}
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
+        <div>
+          <h2>Third Interview</h2>
+          <iframe
+            title="Third Interview"
+            width="560"
+            height="315"
+            src={getEmbeddableUrl("https://drive.google.com/file/d/1qYVxVNy_IWv-asCgUhqoGuoyPPsKsqWt/view?usp=sharing")}
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
 
         {/* Fourth Interview */}
-        <iframe
-          title="Fourth Interview"
-          width="560"
-          height="315"
-          src={getEmbeddableUrl("https://drive.google.com/file/d/1hApLCCN0AunR8y7H1UhJ6dLrKSsozHJ8/view?usp=sharing")}
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
+        <div>
+          <h2>Fourth Interview</h2>
+          <iframe
+            title="Fourth Interview"
+            width="560"
+            height="315"
+            src={getEmbeddableUrl("https://drive.google.com/file/d/1hApLCCN0AunR8y7H1UhJ6dLrKSsozHJ8/view?usp=sharing")}
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
       </div>
     </div>
   );
