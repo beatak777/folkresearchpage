@@ -84,7 +84,7 @@ const About = () => {
               <FaImdb style={iconStyle} /> IMDb Profile
             </a>
             <a href="https://www.amazon.co.uk/SCRATCHES-TRANSITION-SOUL-Beata-Konya/dp/B08F7Y6VTM/ref=sr_1_1?dib=eyJ2IjoiMSJ9.fa5T6P9L9Pk2Bp0XHSvS1w.CkD1bGQTZ9arl_spWkOngc_TX7G2vNsZiCrFwl_k6hE&dib_tag=se&keywords=scratches+aka+the+transition+of+the+soul&qid=1717501786&sr=8-1" target="_blank" rel="noopener noreferrer" style={linkStyle}>
-              <FaAmazon style={iconStyle} /> Book - Scratches: The Transition of Soul
+              <FaAmazon style={iconStyle} /> Book: Scratches Aka The Transition of Soul
             </a>
             <div style={contactStyle}>
               <h3>Contact Me</h3>
