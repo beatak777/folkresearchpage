@@ -3,11 +3,10 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 
 function MyNav() {
   return (
-    <Navbar expand="lg" className="navbar navbar-expand-lg navbar-light bg-red">
-      <Container className="d-flex flex-column align-items-center">
-        <Navbar.Brand href="#">
-          Beata Konya's Research Project: Folklore & Reincarnation in the Theatre</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+    <Navbar expand="lg" bg="light" variant="light">
+      <Container>
+        <Navbar.Brand href="#">Beata Konya's Research Project</Navbar.Brand>
+      
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="./home">Home</Nav.Link>

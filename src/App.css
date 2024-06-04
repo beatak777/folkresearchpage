@@ -97,3 +97,23 @@
     flex: 1 1 100%;
   }
 }
+
+/* Additional mobile styles */
+@media (max-width: 576px) {
+  .navbar-brand {
+    font-size: 1rem;
+  }
+
+  .navbar-toggler-icon {
+    background-color: #fff;
+  }
+
+  .nav-link {
+    font-size: 0.9rem;
+    margin-right: 0.3rem;
+  }
+
+  .video-item {
+    margin-bottom: 0.5rem;
+  }
+}

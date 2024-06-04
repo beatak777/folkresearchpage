@@ -4,14 +4,13 @@ import { FaInstagram, FaImdb, FaAmazon, FaEnvelope, FaAddressCard } from 'react-
 const About = () => {
   const containerStyle = {
     display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
+    alignItems: 'flex-start',
     marginBottom: '20px',
   };
 
   const textContainerStyle = {
-    textAlign: 'center',
-    marginTop: '20px',
+    flex: '1',
+    marginLeft: '20px',
   };
 
   const paragraphStyle = {
@@ -21,10 +20,9 @@ const About = () => {
   };
 
   const imageStyle = {
-    width: '100%',
     maxWidth: '290px',
     height: 'auto',
-    marginBottom: '20px',
+    marginRight: '20px',
   };
 
   const linkStyle = {
@@ -42,7 +40,7 @@ const About = () => {
 
   const socialMediaContainerStyle = {
     marginTop: '20px',
-    textAlign: 'center',
+    textAlign: 'left',
   };
 
   const iconStyle = {
@@ -53,7 +51,7 @@ const About = () => {
     <div className="container">
       <div className="row">
         <div className="col-md-8 offset-md-2">
-          <h1 className="mb-4" style={{ textAlign: 'center' }}>About Me</h1>
+          <h1 className="mb-4" style={{ textAlign: 'left' }}>About Me</h1>
           <div style={containerStyle}>
             <img
               src="https://res.cloudinary.com/spotlightuk/image/upload/e_sharpen:62,q_auto:best,c_limit,fl_keep_attribution,w_2580/v3/remote_media_prodaws/c19c4dcd-6398-4fa8-b2d8-fdeb7025c70e"
@@ -96,8 +94,6 @@ const About = () => {
             </div>
           </div>
         </div>
-     
-
       </div>
     </div>
   );

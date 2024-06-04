@@ -2,45 +2,61 @@ import React from 'react';
 
 function Film() {
   return (
-    <div className="container">
-      <h1 style={{ textAlign: 'center' }}>Threads of Eternity</h1>
-      <div className="film-content" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+    <div className="container" style={{ textAlign: 'left' }}>
+      <h1>Threads of Eternity</h1>
+   
+      <div className="film-content" style={{ display: 'flex', alignItems: 'flex' }}>
         <img 
           src="https://tapoutgoldsmiths24.com/assets/ThreadsOfEternityImage.c4c73295.png" 
           alt="Threads of Eternity" 
-          style={{ width: "100%", maxWidth: "400px", height: "auto" }} 
+          style={{ maxWidth: "35.2%", height: "auto" }} // Set max-width to 100%
         />
-        <div style={{ textAlign: 'left', marginTop: '20px' }}>
+        <div style={{ marginLeft: '20px' }}>
+          <h2></h2>
+          <p>This page is dedicated to inform you about my final project short film. Scroll down to look at specific filming locations and learn about the stories of my chosen locations.</p>
           <p>
             Threads of Eternity follows Ilona, the protagonist unravelling past lives through meditation, spurred by a mysterious symbol. Three pivotal memories emerge, marked by a diminishing red thread, symbolizing hope and interconnectedness. The film blends elements of mystery and self-discovery, drawing inspiration from the red thread legend and spiritual beliefs around it. Visual storytelling intertwines with themes of reincarnation, personal transformation, and hope. Threads of Eternity showcases Beata Konya's creative vision and research into folklore, delving into the premises of past lives and their connection to the present.
           </p>
           <p>
-            The protagonist's name 'Ilona' means fairy, and is a symbol of hope and magic. She often appears in Hungarian folktales. The name choice was inspired by my ancestor Ilona Mayer, who initially appeared in my dreams when I started the process of making the movie plot.
+      
           </p>
+          <p>
+            The protagonist's name 'Ilona' means fairy,and is a symbol of hope and magic. She often appears in Hungarian folktales. The name choice was inspired by my ancestor Ilona Mayer, who initially appeared in my dreams when I started the process of making the movie plot.
+          </p>
+          <img 
+            src="https://imgs.search.brave.com/bIZfbHE7XNEhutkwJUKaDE7NTKyz5G-r9abguu1mfCY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/YW50aWt2YXJpdW0u/aHUvZm90by90dW5k/ZXItaWxvbmEtODE3/NDYtbmFneS5qcGc"
+            alt="Ilona"
+            style={{ maxWidth: "24%", height: "auto" }}
+          />
+  <img 
+            src="http://dia.osaarchivum.org/public/filmstrips/000538/ti01.jpg"
+            alt="Ilona"
+            style={{ maxWidth: "42.7%", height: "auto" }}
+          />
         </div>
       </div>
-      <div className="location-content">
-        <h2 style={{ textAlign: 'center' }}>Filming Locations</h2>
-        <div className="location" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+      <div className="location-content" style={{ textAlign: 'left' }}>
+        <h2>Filming Locations</h2>
+        <div className="location" style={{ display: 'flex', alignItems: 'flex-start' }}>
           <img 
             src="https://cdn.elebase.io/173fe953-8a63-4a8a-8ca3-1bacb56d78a5/57a57df1-3011-433a-9a41-aec2de8ffa68-72_01-hercegkutgomoscellars_viktorkiss.jpg?w=1000&h=500&fit=crop&q=75"
             alt="Hercegkut"
-            style={{ width: "100%", maxWidth: "400px", height: "auto", marginBottom: '20px' }}
+            style={{ maxWidth: "30%", height: "auto", marginRight: '20px' }}
           />
-          <div style={{ textAlign: 'left', maxWidth: '400px' }}>
+          <div>
             <h3 style={{ marginTop: 0 }}>Hercegkut</h3>
             <p>Hercegkut, renowned for its ancient cellars and picturesque landscapes, emerges as a captivating backdrop for cinematic storytelling. The decision to feature Hercegkut was not merely based on its aesthetic appeal but also on the palpable sense of magic that permeates its surroundings. In choosing Hercegkut, I sought to transport viewers to a realm where the mundane transcends into the extraordinary, echoing the timeless allure of the red thread and its profound significance within the tapestry of human experience.
             </p>
             <a href="https://visitworldheritage.com/en/eu/world-heritage-cellars-of-hercegk%C3%BAt/951c98e8-839f-4e25-aea5-3feafe0dfdd5" target="_blank" rel="noopener noreferrer">Learn more about Hercegkut</a>
           </div>
         </div>
-        <div className="location" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+        <div className="location" style={{ display: 'flex', alignItems: 'flex-start' }}>
           <img 
             src="https://www.historyhit.com/app/uploads/bis-images/5155158/shutterstock_1687566199-1576x1074.jpg"
             alt="Boldogko Castle"
-            style={{ width: "100%", maxWidth: "400px", height: "auto", marginBottom: '20px' }}
+            style={{ maxWidth: "30%", height: "auto", marginRight: '20px' }}
           />
-          <div style={{ textAlign: 'left', maxWidth: '400px' }}>
+          <div>
             <h3 style={{ marginTop: 0 }}>Boldogko Castle</h3>
             <p>
             Boldogko Castle stands as a medieval bastion steeped in a tapestry of historical intrigue. Its formidable walls echo with the whispers of bygone eras, adding a layer of depth to the atmospheric fabric of my film. Yet, beyond its tangible history lies a realm of folklore and legend, notably the tale of the seven fairies whose ethereal hands are said to have shaped its very foundations. This enchanting narrative intertwines with the castle's stone walls, enriching the cinematic experience with a sense of mystique and wonder. In embracing Boldogko Castle as a setting, I not only pay homage to its tangible history but also invite viewers to delve into the realm of myth and magic that dances within its ancient halls.
@@ -48,13 +64,13 @@ function Film() {
             <a href="https://www.historyhit.com/locations/boldogko-castle/" target="_blank" rel="noopener noreferrer">Learn more about Boldogko Castle</a>
           </div>
         </div>
-        <div className="location" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+        <div className="location" style={{ display: 'flex', alignItems: 'flex-start' }}>
           <img 
             src="https://media.timeout.com/images/105990985/1372/772/image.webp"
             alt="Mitzpe Ramon Crater"
-            style={{ width: "100%", maxWidth: "400px", height: "auto", marginBottom: '20px' }}
+            style={{ maxWidth: "30%", height: "auto", marginRight: '20px' }}
           />
-          <div style={{ textAlign: 'left', maxWidth: '400px' }}>
+          <div>
             <h3 style={{ marginTop: 0 }}>Mitzpe Ramon Crater</h3>
             <p>
             Mitzpe Ramon Crater, nestled in Israel, stands as a geological marvel of unparalleled beauty and spiritual resonance. Its landscape, shaped by millennia of natural forces, exudes an otherworldly aura, making it an ideal backdrop for pivotal scenes in my film. While Safed holds the historical origins of Kabbalah, it was the enigmatic allure and mystical energies emanating from Mitzpe Ramon that beckoned me. This decision was not merely geographical but deeply intuitive, as if the very essence of the crater whispered secrets that aligned with the essence of my story. In choosing Mitzpe Ramon, I embraced not just a filming location, but a conduit for the spiritual dimensions my narrative sought to explore.
@@ -68,5 +84,4 @@ function Film() {
 }
 
 export default Film;
-
 
