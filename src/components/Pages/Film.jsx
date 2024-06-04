@@ -50,7 +50,7 @@ function Film() {
           <div>
             <h3 style={{ marginTop: 0 }}>Boldogko Castle</h3>
             <p>
-            Boldogko Castle stands as a medieval bastion steeped in a tapestry of historical intrigue. Its formidable walls echo with the whispers of bygone eras, adding a layer of depth to the atmospheric fabric of my film. Yet, beyond its tangible history lies a realm of folklore and legend, notably the tale of the seven fairies whose ethereal hands are said to have shaped its very foundations. This enchanting narrative intertwines with the castle's stone walls, enriching the cinematic experience with a sense of mystique and wonder. In embracing Boldogko Castle as a setting, I not only pay homage to its tangible history but also invite viewers to delve into the realm of myth and magic that dances within its ancient halls.
+            Boldogko Castle is a medieval bastion steeped in a tapestry of historical intrigue. Its formidable walls echo with the whispers of bygone eras, adding a layer of depth to the atmospheric fabric of my film. Yet, beyond its tangible history lies a realm of folklore and legend, notably the tale of the seven fairies whose ethereal hands are said to have shaped its very foundations. This enchanting narrative intertwines with the castle's stone walls, enriching the cinematic experience with a sense of mystique and wonder. In embracing Boldogko Castle as a setting, I not only pay homage to its tangible history but also invite viewers to delve into the realm of myth and magic that dances within its ancient halls.
             </p>
             <a href="https://www.historyhit.com/locations/boldogko-castle/" target="_blank" rel="noopener noreferrer">Learn more about Boldogko Castle</a>
           </div>
