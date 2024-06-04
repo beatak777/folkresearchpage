@@ -21,7 +21,7 @@ function Film() {
       The nearly eight minutes long short film was captured with an iPhone 13 Mini and additionally there were two drone footages were used from the Ramon Crater. It took me and my team to film everything in two months and the editing happened for a three months period prior to our festival screening. The research began as a quest for an autobiographical love story that connects through time and space, yet somehow the story did not feel aligned. Then I found a folklore about a Golden Thread, where the protagonist weaves the thread until her lover arrives back home from captivity. This story from Elek Benedek guided me towards the outcome of the final storyline of the movie.
           </p>
           <p>
-            The protagonist's name 'Ilona' means fairy,and is a symbol of hope and magic. She often appears in Hungarian folktales. The name choice was inspired by my ancestor Ilona Mayer, who initially appeared in my dreams when I started the process of making the movie plot.
+            The protagonist's name 'Ilona' means "Queen of the Fairies",and is a symbol of hope and magic. She often appears in Hungarian folktales. The name choice was inspired by my ancestor Ilona Mayer, who initially appeared in my dreams when I started the process of making the movie plot.
           </p>
        
         </div>
