@@ -39,8 +39,7 @@ const Home = () => {
           </div>
           <div className="feature">
             <img src="path/to/interactive-icon.png" alt="Interactive" className="feature-icon" />
-            <h3>Digital Folktales in English</h3>
-            <p>Discover the magic of Hungarian Folktales through digital adaptations.</p>
+            
           </div>
         </div>
       </section>
