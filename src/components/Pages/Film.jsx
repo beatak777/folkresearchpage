@@ -9,7 +9,7 @@ function Film() {
         <img 
           src="https://tapoutgoldsmiths24.com/assets/ThreadsOfEternityImage.c4c73295.png" 
           alt="Threads of Eternity" 
-          style={{ maxWidth: "35.2%", height: "auto" }} // Set max-width to 100%
+          style={{ maxWidth: "30.2%", height: "auto" }} // Set max-width to 100%
         />
         <div style={{ marginLeft: '20px' }}>
           <h2></h2>
@@ -23,16 +23,7 @@ function Film() {
           <p>
             The protagonist's name 'Ilona' means fairy,and is a symbol of hope and magic. She often appears in Hungarian folktales. The name choice was inspired by my ancestor Ilona Mayer, who initially appeared in my dreams when I started the process of making the movie plot.
           </p>
-          <img 
-            src="https://imgs.search.brave.com/bIZfbHE7XNEhutkwJUKaDE7NTKyz5G-r9abguu1mfCY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/YW50aWt2YXJpdW0u/aHUvZm90by90dW5k/ZXItaWxvbmEtODE3/NDYtbmFneS5qcGc"
-            alt="Ilona"
-            style={{ maxWidth: "24%", height: "auto" }}
-          />
-  <img 
-            src="http://dia.osaarchivum.org/public/filmstrips/000538/ti01.jpg"
-            alt="Ilona"
-            style={{ maxWidth: "42.7%", height: "auto" }}
-          />
+       
         </div>
       </div>
       <div className="location-content" style={{ textAlign: 'left' }}>
