@@ -17,7 +17,7 @@ function Interviews() {
     <div className="container">
       <h1 style={{ textAlign: 'center' }}>Interviews</h1>
       <p>Welcome to our interviews page! Here you can find interviews with industry experts.</p>
-      <p style={{ textAlign: 'center' }}>Visit the <a href="https://hubarttheatre.wordpress.com" target="_blank" rel="noopener noreferrer">Hubart Theatre WordPress website</a> for more information.</p>
+      <p style={{ textAlign: 'center' }}>Visit the <a href="https://hubartco.wordpress.com/" target="_blank" rel="noopener noreferrer">Hubart Hungarian Theatre Company's Website</a> for more information.</p>
       <div className="video-container" style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
         {/* First Interview */}
         <div className="video-item" style={{ maxWidth: '560px', margin: '10px' }}>
