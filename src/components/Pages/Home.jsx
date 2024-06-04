@@ -72,9 +72,9 @@ const Home = () => {
           <div className="feature">
             <a href="https://youtu.be/a226flenKH8?si=-I2mhJAuJdOeOwRP" target="_blank" rel="noopener noreferrer">
               <img src="https://img.youtube.com/vi/a226flenKH8/0.jpg" alt="The Three Princes and Their Beasts" className="feature-icon" />
-              <h3>Hungarian Folk Tales: A Talking Vine, a Smiling Apple, and a Jingling, Tingling Peach (S08E05)</h3>
+              <h3>Hungarian Folk Tales: A Talking Vine, a Smiling Apple, <br /> and a Jingling, Tingling Peach (S08E05)</h3>
             </a>
-            <p>Immerse yourself in the adventure of " A Talking Vine, a Smiling Apple, and a Jingling, Tingling Peach."</p>
+            <p>Immerse yourself in the adventure of " A Talking Vine, a Smiling Apple, <br /> and a Jingling, Tingling Peach."</p>
           </div>
         </div>
       </section>
