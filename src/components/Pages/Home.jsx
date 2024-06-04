@@ -13,33 +13,28 @@ const Home = () => {
         />
         <div className="mt-4">
           <p>
-            Welcome to our exploration of reincarnation folklore and theatre. This project delves into the rich tapestry of reincarnation myths from various cultures and their vibrant representations in theatre.
+            Welcome to our exploration of reincarnation folklore and theatre. This page is dedicated to the research that delves into the rich tapestry of reincarnation through myths from the Hungarian culture in the hope to produce a theatre work after the research has been conducted.
           </p>
-          <a href="#overview" className="cta-button">Start Your Journey</a>
+        
         </div>
       </div>
 
       <section id="overview" className="features-section">
-        <h2>Key Features</h2>
+        
         <div className="features">
+          {/* Cultural Studies and Sociology */}
           <div className="feature">
-            <img src="path/to/folklore-icon.png" alt="Folklore" className="feature-icon" />
-            <h3>Reincarnation in Folklore</h3>
-            <p>Discover the diverse tales of rebirth and transformation.</p>
+          
+           
           </div>
           <div className="feature">
-            <img src="path/to/theatre-icon.png" alt="Theatre" className="feature-icon" />
-            <h3>Theatrical Interpretations</h3>
-            <p>Explore plays and performances inspired by reincarnation themes.</p>
+           
           </div>
+          
+          {/* Encyclopedia and Academic Resources */}
           <div className="feature">
-            <img src="path/to/scholar-icon.png" alt="Scholar" className="feature-icon" />
-            <h3>Scholarly Insights</h3>
-            <p>Read in-depth analyses and expert opinions.</p>
-          </div>
-          <div className="feature">
-            <img src="path/to/interactive-icon.png" alt="Interactive" className="feature-icon" />
-            
+        
+     
           </div>
         </div>
       </section>
@@ -47,6 +42,7 @@ const Home = () => {
       <section id="hungarian-folktales" className="features-section">
         <h2>Hungarian Folktales in English</h2>
         <div className="features" style={{ display: 'flex', justifyContent: 'space-around', flexWrap: 'wrap' }}>
+          {/* Hungarian Folklore and Ethnography */}
           <div className="feature">
             <a href="https://youtu.be/E-nSlaBmk8g?si=SOhAahKngvi356ew" target="_blank" rel="noopener noreferrer">
               <img src="https://img.youtube.com/vi/E-nSlaBmk8g/0.jpg" alt="The Shepherd Paul" className="feature-icon" />
@@ -74,9 +70,13 @@ const Home = () => {
               <h3>Hungarian Folk Tales: A Talking Vine, a Smiling Apple, <br /> and a Jingling, Tingling Peach (S08E05)</h3>
             </a>
             <p>Immerse yourself in the adventure of " A Talking Vine, a Smiling Apple, <br /> and a Jingling, Tingling Peach."</p>
+
+            
           </div>
         </div>
       </section>
+   
+
     </div>
   );
 };

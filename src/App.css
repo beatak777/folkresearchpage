@@ -1,21 +1,23 @@
+/* General styles */
 #root {
-  max-width: 1280px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
 }
 
+/* Logo styles */
 .logo {
-  height: 6em;
-  padding: 1.5em;
+  height: 4em;
+  padding: 1em;
   will-change: filter;
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 0.5em #646cffaa);
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 0.5em #61dafbaa);
 }
 
 @keyframes logo-spin {
@@ -33,50 +35,46 @@
   }
 }
 
+/* Card styles */
 .card {
-  padding: 2em;
+  padding: 1em;
 }
 
+/* Read the Docs link */
 .read-the-docs {
   color: #888;
 }
 
-/* MyNav.css */
-
-/* Navbar */
+/* Navbar styles */
 .navbar {
-  background-color: #8b0c0c; /* Red background color */
-  padding: 1rem 0; /* Add padding to the top and bottom */
+  background-color: #8b0c0c;
+  padding: 0.5rem 0;
 }
 
-/* Navbar Brand */
 .navbar-brand {
-  color: #fff; /* White text color */
-  font-size: 1.5rem; /* Increase font size */
+  color: #fff;
+  font-size: 1.2rem;
 }
 
-/* Navbar Toggle Button */
 .navbar-toggler {
-  border-color: #fff; /* White border color */
+  border-color: #fff;
 }
 
-/* Navbar Links */
 .nav-link {
-  color: #fff !important; /* White text color */
-  font-size: 1.2rem; /* Increase font size */
-  margin-right: 1rem; /* Add margin between links */
+  color: #fff !important;
+  font-size: 1rem;
+  margin-right: 0.5rem;
 }
 
-/* Navbar Links (hover) */
 .nav-link:hover {
-  color: #f0f0f0 !important; /* Lighter text color on hover */
+  color: #f0f0f0 !important;
 }
 
-/* Interviews.css */
+/* Video container styles */
 .container {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 20px;
+  padding: 1rem;
 }
 
 .video-container {
@@ -86,12 +84,12 @@
 }
 
 .video-item {
-  flex: 1 1 calc(50% - 10px); /* Adjust the width of each item */
-  margin-bottom: 20px;
+  flex: 1 1 calc(50% - 10px);
+  margin-bottom: 1rem;
 }
 
 .video-item h2 {
-  margin-bottom: 10px;
+  margin-bottom: 0.5rem;
 }
 
 @media (max-width: 768px) {
