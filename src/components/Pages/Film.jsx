@@ -4,7 +4,7 @@ function Film() {
   return (
     <div className="container">
       <h1>Film</h1>
-      <p>Welcome to our film page! Here you can find information about our latest films.</p>
+      <p>This page is dedicated to inform you about my final project short film. Scroll down to look at specific filming locations and learn about the stories of my chosen locations.</p>
       <div className="film-content">
         <h2>Threads of Eternity</h2>
         <img 
