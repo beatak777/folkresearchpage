@@ -73,6 +73,15 @@ const Home = () => {
 
             
           </div>
+          <div className="feature">
+            <a href="https://www.youtube.com/watch?v=a1RrhBF1C9k" target="_blank" rel="noopener noreferrer">
+              <img src="" alt="" className="feature-icon" />
+              <h3>Hungarian Folk Tales: Seven at One Blow (S06E03)</h3>
+            </a>
+            <p>Immerse yourself in the adventure of "Seven at One Blow"</p>
+
+            
+          </div>
         </div>
       </section>
    
