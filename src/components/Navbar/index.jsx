@@ -6,7 +6,7 @@ function MyNav() {
     <Navbar expand="lg" className="navbar navbar-expand-lg navbar-light bg-red">
       <Container className="d-flex flex-column align-items-center">
         <Navbar.Brand href="#">
-          Research</Navbar.Brand>
+          Beata Konya's Research Project: Folklore & Reincarnation in the Theatre</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
