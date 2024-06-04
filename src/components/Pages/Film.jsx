@@ -13,12 +13,12 @@ function Film() {
         />
         <div style={{ marginLeft: '20px' }}>
           <h2></h2>
-          <p>This page is dedicated to inform you about my final project short film. Scroll down to look at specific filming locations and learn about the stories of my chosen locations.</p>
+          <p>This page is dedicated to inform you about my final project short film. Scroll down to look at specific filming locations in connection to folklore and learn about their magical stories.</p>
           <p>
             Threads of Eternity follows Ilona, the protagonist unravelling past lives through meditation, spurred by a mysterious symbol. Three pivotal memories emerge, marked by a diminishing red thread, symbolizing hope and interconnectedness. The film blends elements of mystery and self-discovery, drawing inspiration from the red thread legend and spiritual beliefs around it. Visual storytelling intertwines with themes of reincarnation, personal transformation, and hope. Threads of Eternity showcases Beata Konya's creative vision and research into folklore, delving into the premises of past lives and their connection to the present.
           </p>
           <p>
-      
+      The nearly eight minutes long short film was captured with an iPhone 13 Mini and additionally there were two drone footages were used from the Ramon Crater. It took me and my team to film everything in two months and the editing happened for a three months period prior to our festival screening. The research began as a quest for an autobiographical love story that connects through time and space, yet somehow the story did not feel aligned. Then I found a folklore about a Golden Thread, where the protagonist weaves the thread until her lover arrives back home from captivity. This story from Elek Benedek guided me towards the outcome of the final storyline of the movie.
           </p>
           <p>
             The protagonist's name 'Ilona' means fairy,and is a symbol of hope and magic. She often appears in Hungarian folktales. The name choice was inspired by my ancestor Ilona Mayer, who initially appeared in my dreams when I started the process of making the movie plot.
